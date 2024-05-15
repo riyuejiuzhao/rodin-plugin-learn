@@ -8,6 +8,8 @@ import org.rodinp.core.IInternalElement;
 import org.rodinp.core.IInternalElementType;
 import org.rodinp.core.IRodinElement;
 
+import hello.IBound;
+
 /**
  * 
  */
@@ -19,7 +21,6 @@ public class Bound extends EventBElement implements IBound {
 	 */
 	public Bound(String name, IRodinElement parent) {
 		super(name, parent);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
